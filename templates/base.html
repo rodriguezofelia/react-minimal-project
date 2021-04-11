@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>{% block title %}WHATEVER TITLE{% endblock %}</title>
+    <link rel="icon" href="data:,">
+</head>
+<body>
+    <script src="https://unpkg.com/babel-standalone@6.26.0/babel.js"></script>
+    <script src="https://unpkg.com/react@16.14.0/umd/react.development.js" crossorigin></script>
+    <script src="https://unpkg.com/react-dom@16.14.0/umd/react-dom.development.js" crossorigin></script>
+
+    {% block body%}WHATEVER{% endblock %}
+</body>
+</html>
